@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import React from 'react';
 import { User } from './search-panel';
 import { TableProps } from 'antd/lib/table/Table';
-interface Project {
+export interface Project {
   id: string;
   personId: string;
   name: string;
